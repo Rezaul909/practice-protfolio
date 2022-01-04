@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flex-container{
+    display: flex;
+    padding-bottom: 200px;
+}
+.half-width{
+    width:50%;
+    padding:0 50px 0 50px;
+}
+#middle-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#last-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#div1{
+    padding-right: 200px;
+    margin-left:50px
+}
+#div4{
+    padding-right: 100px;
+}
+.half-width img{
+    width:90%;
+}
+h1{
+    font-size:50px;
+}
+h3{
+    font-size:25px;
+}
+.color{
+    color:chocolate
+}
+a {
+    text-decoration:none;
+    background-color:cyan;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color:red;
+    font-weight: bold;
+    font-size:25px;
+}
+p{
+    font-size:20px
+}
+#left-left-border{
+    box-shadow: 20px 20px 150px palevioletred;
+    margin-left: 70px;
+    padding-bottom: 50px;   
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+#right-left-border{
+    box-shadow: 20px 20px 150px palevioletred;
+    margin:0 70px 0 70px;
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,rgb(255, 0, 0));
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+footer{
+    background-color:rgb(5, 2, 49);
+    padding: 50px;
+}
+footer p{
+    text-align: center;
+    color:white;
+}
